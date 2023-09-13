@@ -1,0 +1,60 @@
+/* Importados */
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Nunito:ital,wght@0,800;1,500&family=Rubik:wght@300&display=swap');
+
+*{
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+}
+
+body {
+    background: rgb(33,100,125);
+    background: linear-gradient(90deg, rgba(33,100,125,1) 0%, rgba(0,60,83,1) 100%);
+}
+
+h1{
+    font-weight: 1200;
+    color: white;
+    font-size: 40px;
+    -webkit-text-stroke: 2px black;
+}
+
+p{
+    font-weight: 800;
+    color: white;
+    font-size: 20px;
+}
+
+.contentIndex{
+    padding: 20px;
+}
+
+.navButtons{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.navButtons > button{
+    /* tamaño y estilo de texto */
+    font-size: 25px;
+    width: 150px;
+    height: 50px;
+    color:#003c53;
+    /* ajuste de posicion */
+    margin: 10px;
+    /* estilo al boton */
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    box-shadow: rgba(83, 109, 254, 0.2) 0 2px 4px, rgba(83, 109, 254, 0.15) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+}
+
+.navButtons > button:hover {
+    box-shadow: rgba(83, 109, 254, 0.3) 0 4px 8px, rgba(83, 109, 254, 0.2) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+    transform: translateY(-2px);
+  }
+
+.navButtons > button:active {
+    box-shadow: #D6D6E7 0 3px 7px inset;
+    transform: translateY(2px);
+}
