@@ -8,7 +8,7 @@
 
 body {
     background: rgb(33,100,125);
-    background: linear-gradient(90deg, rgba(33,100,125,1) 0%, rgba(0,60,83,1) 100%);
+    background: linear-gradient(90deg, #439993 0%, #5a8eec 100%);
 }
 
 h1{
@@ -30,7 +30,7 @@ p{
 
 .navButtons{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: flex-end;
 }
 
@@ -57,4 +57,18 @@ p{
 .navButtons > button:active {
     box-shadow: #D6D6E7 0 3px 7px inset;
     transform: translateY(2px);
+}
+
+.info{
+    display: grid;
+    grid-template-columns: 10% 35% 10% 35% 10%;
+    color: white;
+}
+
+.infoHtml{
+    grid-column: 2;
+}
+
+.infoCss{
+    grid-column: 4;
 }
