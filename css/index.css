@@ -52,7 +52,7 @@ p{
 .navButtons > button:hover {
     box-shadow: rgba(83, 109, 254, 0.3) 0 4px 8px, rgba(83, 109, 254, 0.2) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
     transform: translateY(-2px);
-  }
+}
 
 .navButtons > button:active {
     box-shadow: #D6D6E7 0 3px 7px inset;
@@ -62,7 +62,6 @@ p{
 .info{
     display: grid;
     grid-template-columns: 10% 35% 10% 35% 10%;
-    grid-template-rows: 2fr;
     color: white;
 }
 
@@ -74,8 +73,27 @@ p{
     grid-column: 4;
 }
 
-.infoP{
+.gridInfo{
+    display: grid;
+    grid-template-columns: 10% 35% 10% 35% 10%;
+}
+
+.parrafo1{
+    grid-column: 2;
+    color: white;
+}
+
+.infoPHtml{
     font-size: 15px;
     grid-column: 2;
-    grid-row: 2;
+}
+
+.parrafo2{
+    grid-column: 4;
+    color: white;
+}
+
+.infoPCss{
+    font-size: 15px;
+    grid-column: -1;
 }
