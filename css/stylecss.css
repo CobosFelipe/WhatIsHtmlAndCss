@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Borel&family=Nunito:ital,wght@0,800;1,500&family=Rubik:wght@300&display=swap");
+
+body {
+    background: rgb(2,0,36);
+    background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  font-family: "Nunito", sans-serif;
+}
+h1 {
+  text-shadow: 4px 4px red;
+  -webkit-text-stroke: #fff;
+  -webkit-text-stroke-width: 1px;
+  color: #fff;
+  text-align: center;
+}
+h2 {
+  text-shadow: 4px 4px yellowgreen;
+  -webkit-text-stroke: #fff;
+  -webkit-text-stroke-width: 1px;
+  color: #fff;
+  text-align: center;
+}
+p {
+  color: aliceblue;
+  text-align: justify;
+}
+.imagen {
+  display: flex;
+  justify-content: center;
+}
