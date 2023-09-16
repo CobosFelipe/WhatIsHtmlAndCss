@@ -1,0 +1,10 @@
+.atributs{
+	text-align: justify;
+	padding: 20px;
+}
+
+h2{
+	display: flex;
+	justify-content: start;
+	padding: 20px;
+}
