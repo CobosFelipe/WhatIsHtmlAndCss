@@ -6,14 +6,31 @@ body {
   font-family: "Nunito", sans-serif;
 }
 h1 {
-  text-shadow: 4px 4px red;
-  -webkit-text-stroke: #fff;
-  -webkit-text-stroke-width: 1px;
-  color: #fff;
-  text-align: center;
+  color: rgb(8, 8, 110);
+  font-size: 40px;
+  width: 70%;
+  padding: 10px;
+  margin: auto;
+  display: block;
+  font-family: monospace;
+  white-space: nowrap;
+  border-right: 4px solid;
+  width: 27ch;
+
+  animation: typing 2s steps(27), 
+  blink .5s infinite step-end alternate;
+  overflow: hidden;
+}
+
+@keyframes typing {
+  from {width: 0;}
+}
+@keyframes blink{
+  50% {border-color: transparent;}
 }
 h2 {
-  text-shadow: 4px 4px yellowgreen;
+  font-size: 30px;
+  text-shadow: 4px 4px rgb(13, 128, 186);
   -webkit-text-stroke: #fff;
   -webkit-text-stroke-width: 1px;
   color: #fff;
@@ -22,8 +39,32 @@ h2 {
 p {
   color: aliceblue;
   text-align: justify;
+  width: 70%;
+  padding: 10px;
+  margin: auto;
 }
 .imagen {
   display: flex;
   justify-content: center;
+}
+h3{
+  font-size: 25px;
+  color:yellowgreen;
+  width: 70%;
+  padding: 10px;
+  margin: auto;
+}
+h4{
+  color:yellow;
+  width: 70%;
+  padding: 10px;
+  margin: auto;
+}
+span{
+  color:azure
+}
+.codigo{
+  color: grey;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+  
 }

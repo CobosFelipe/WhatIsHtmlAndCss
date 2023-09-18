@@ -1,0 +1,26 @@
+body {
+  background: #000;
+  color: #fff;
+  font-family: "Lobster";
+}
+
+div {
+  position: absolute;
+  display: grid;
+}
+video {
+  position: relative;
+  top: 0%;
+  left: 0;
+  width: 95%;
+  height: 80%;
+  object-fit: cover;
+}
+h1 {
+  position: center;
+  text-align: center;
+  background: #000;
+  font-size: 220px;
+  font-weight: 300;
+  mix-blend-mode: multiply;
+}

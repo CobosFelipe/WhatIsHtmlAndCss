@@ -34,7 +34,7 @@
       marcado el diseño que cada uno desee.
     </p>
 
-    <h1>¿Para qué sirve el CSS?</h1>
+    <h2>¿Para qué sirve el CSS?</h2>
 
     <p>
       Como hemos mencionado, el CSS es un lenguaje informático que especifica
@@ -88,6 +88,139 @@
       que puede tomar varios valores de color . También tenemos la propiedad de
       font-size, que puede tomar varias unidades de tamaño como valor.
     </p>
+    <h2>¿Qué es un selector CSS?</h2>
+    <p>
+      Los selectores CSS son herramientas utilizadas para definir el estilo que
+      quieres dar a tus elementos en CSS. Existen muchos tipos de selectores en
+      este lenguaje, cada uno con su propia sintaxis y utilidad. El uso de las
+      reglas de programación correctas ayuda al explorador a aplicar propiedades
+      específicas a los elementos indicados.
+    </p>
+    <h2>Tipos de Selectores</h2>
+    <h3>Selector Universal</h3>
+    <h4>Sintaxis: <span> * { atributo:valor; }</span></h4>
+    <h4>
+      Ejemplo:
+      <span>
+        <span class="codigo">* { color: grey; }</span> /* El estilo se aplicará
+        a todos los elementos de la página*/</span
+      >
+    </h4>
+    <p>
+      El selector universal (*) es útil cuando deseas aplicar un estilo a todos
+      los elementos en una página web sin excepción. Es una forma rápida y
+      sencilla de establecer reglas generales que afectarán a todos los
+      elementos en el documento. Por ejemplo, si deseas eliminar todos los
+      márgenes y rellenos predeterminados de los elementos en tu página para
+      empezar desde cero, puedes usar el selector universal para restablecerlos.
+    </p>
+    <h3>Selector etiqueta</h3>
+    <h4>Sintaxis: <span>etiqueta { atributo:valor }</span></h4>
+    <h4>
+      Ejemplo:
+      <span>
+        <span class="codigo">p {color: green;}</span> /* El estilo se aplicará a
+        todos los elementos.*/</span
+      >
+    </h4>
+    <h3>Selector clase</h3>
+    <h4>Sintaxis: <span>.clase { atributo:valor }</span></h4>
+    <h4>
+      Ejemplo:
+      <span>
+        <span class="codigo">.blend{color: red;}</span> /* El estilo se aplicará
+        a cualquier elemento que tenga la clase .blend */</span
+      >
+    </h4>
+    <h3>Selector identificador</h3>
+    <p>
+      El selector identificador utiliza el atributo id para seleccionar un
+      elemento. Solo puede haber un elemento con un id dado en un documento.
+    </p>
+    <h4>Sintaxis: <span>#id { atributo:valor }</span></h4>
+    <h4>
+      Ejemplo:
+      <span>
+        <span class="codigo">#cent {color: blue;}</span> /* El estilo se
+        aplicará al elemento que tenga el id #cent */</span
+      >
+    </h4>
+    <h3>Selector descendiente</h3>
+    <p>
+      Un elemento es descendiente de otro cuando se encuentra entre las
+      etiquetas de apertura y de cierre del elemento padre.
+    </p>
+    <h4>
+      Sintaxis:
+      <span
+        >selector1 selector2 selectorN {atributo: valor;} /* El estilo se aplica
+        sobre el selector N */</span
+      >
+    </h4>
+    <h4>
+      Ejemplo:
+      <span>
+        <span class="codigo">div p { color: black;}</span> /* El estilo se
+        aplica a todos los párrafos que se encuentren dentro de una etiqueta div
+        */</span
+      >
+    </h4>
+    <h3>Combinación de selectores</h3>
+    <p>
+      La combinación de selectores nos permite dar un estilo a todos los
+      selectores indicados.
+    </p>
+    <h4>
+      Sintaxis:
+      <span>
+        selector1, selector2, selector3{atributo: valor;} /* El estilo se aplica
+        sobre los selectores indicados */</span
+      >
+    </h4>
+    <h4>
+      Ejemplo:
+      <span>
+        <span class="codigo">div, p { color: orange;}</span> /* El estilo se
+        aplica a todos los divs y párrafos */</span
+      >
+    </h4>
+    <h3>Selector de hijos</h3>
+    <p>Se usa para seleccionar un elemento que es hijo de otro elemento.</p>
+    <h4>
+      Sintaxis:
+      <span>
+        selector1 > selector2 {atributo: valor;} /* El estilo se aplica sobre el
+        selector 2 */</span
+      >
+    </h4>
+    <h4>
+      Ejemplo:
+      <span>
+        <span class="codigo">div > p { color: white;}</span> /* El estilo se
+        aplica a todos los párrafos que sean hijos de un div */</span
+      >
+    </h4>
+    <h3>Selector adyacente</h3>
+    <p>
+      Se usa para seleccionar elementos que son hermanos, es decir, su elemento
+      padre es el mismo y están seguidos en el código HTML.
+    </p>
+    <h4>
+      Sintaxis:
+      <span>
+        selector1 + selector2{ atributo: valor; } /* El estilo se aplica al
+        selector 2 */</span
+      >
+    </h4>
+    <h4>
+      Ejemplo:
+      <span>
+        <span class="codigo">div + p { color: black;}</span> /* El estilo se
+        aplica a todos los párrafos que sean hermanos de un div */</span
+      >
+    </h4>
+    <h2>Resumen Selectores</h2>
+    <div class="imagen"><img src="./imagenes/selectores.PNG" alt="" /></div>
     <a href="index.html">Come Back</a>
   </body>
 </html>
