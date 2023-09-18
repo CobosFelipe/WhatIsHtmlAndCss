@@ -1,3 +1,8 @@
+body {
+    background: rgb(33,100,125);
+    background: linear-gradient(90deg, #439993 0%, #5a8eec 100%);
+}
+
 .atributs{
 	text-align: justify;
 	padding: 20px;
@@ -7,4 +12,8 @@ h2{
 	display: flex;
 	justify-content: start;
 	padding: 20px;
+}
+
+.link-lista{
+	font-size: 20px;
 }
