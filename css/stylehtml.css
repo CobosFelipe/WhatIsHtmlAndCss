@@ -21,17 +21,20 @@ h1 {
   border-right: 4px solid;
   width: 28ch;
 
-  animation: typing 8s steps(28), 
-  blink .5s infinite step-end alternate;
+  animation: typing 8s steps(28), blink 0.5s infinite step-end alternate;
   overflow: hidden;
   animation-iteration-count: infinite;
 }
 
 @keyframes typing {
-  from {width: 0;}
+  from {
+    width: 0;
+  }
 }
-@keyframes blink{
-  50% {border-color: transparent;}
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
 }
 
 p {
@@ -43,11 +46,18 @@ p {
   margin: auto;
 }
 
+li {
+  font-size: 25px;
+  color: aliceblue;
+  text-align: justify;
+  width: 70%;
+  padding: 10px;
+  margin: auto;
+}
+
 .imagen {
   display: flex;
   justify-content: center;
-  height: 200px;
-  margin: 20px;
 }
 
 h2 {
@@ -59,29 +69,29 @@ h2 {
   text-align: center;
 }
 
-h3{
+h3 {
   font-size: 30px;
-  color:yellowgreen;
+  color: yellowgreen;
   width: 70%;
   padding: 10px;
   margin: auto;
 }
-h4{
+h4 {
   font-size: 28px;
-  color:yellow;
+  color: yellow;
   width: 70%;
   padding: 10px;
   margin: auto;
 }
-span{
-  color:azure
+span {
+  color: azure;
 }
-.codigo{
+.codigo {
   color: grey;
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
-a{
+a {
   text-decoration: none;
   color: #fff;
 }
@@ -92,7 +102,7 @@ a{
   margin-top: 10px;
 }
 
-button{
+button {
   display: flex;
   font-size: 25px;
   width: 170px;

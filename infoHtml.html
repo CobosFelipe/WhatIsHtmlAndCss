@@ -1,73 +1,100 @@
 <!DOCTYPE html>
 <html lang="es">
   <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <link rel="stylesheet" href="./css/index.css">
-      <title>HTML</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/stylehtml.css" />
+    <title>HTML</title>
   </head>
   <body>
     <a href="./index.html">Link a Home</a>
     <h1>Bienvenido al mundo de HTML</h1>
-    <h2>¿Que es HTML?</h2>
-    <p>Las siglas de html corresponde a HYPERTEXT MARKUP LANGUAGE en español se produce como lenguaje de marcas de HIPERTEXTO, otros como formado de documentos para hyper texto <br> HIPETEXTO:  un Hipertexto  es un texto que contiene enlaces a otros documentos como por ejemplo Wikipedia, estos documentos  contienen múltiples enlaces a otro documento.</p>
-
-    <h2>¿Quien Creo HTML?</h2>
-    <p>El origen de HTML se remonta a 1980 cunado el físico Tim Berners-Lee trabajor del CERN (organización Europea para la investigacion nuclear)
-    Propuso un “Hipertexto” para compartir documentos. Los sistemas de “hepertexto” habían sido desarrollados algunos años antes con la finalidad de permitir a los usuarios a acceder a la información relacionada con los documentos electronicos que estaban visualizando/convirtiéndose, sin que se esperace, en los “precursores” de los enlace de las paginas web actuales.
-    Berners- Lee presento su sistemas de “Hipertexto”, una vez finalizando y depurando a una convocatoria organizada para desarrollar un sistemas de "Hipertexto” para internet.
+    <h2>¿Qué es HTML?</h2>
+    <p>
+      Las siglas de html corresponde a HYPERTEXT MARKUP LANGUAGE en español se
+      produce como lenguaje de marcas de HIPERTEXTO, otros como formado de
+      documentos para hyper texto <br />
+      HIPETEXTO: un Hipertexto es un texto que contiene enlaces a otros
+      documentos como por ejemplo Wikipedia, estos documentos contienen
+      múltiples enlaces a otro documento.
     </p>
 
-    <h2>Ventajas de HTML</h2>
-    <ul>
-        <li>La estructura de texto es amena</li>    
-        <li>Es pequeño el volumen de información.</li>
-        <li>No se requiere de grandes conocimientos, mientras se tenga un editor web.</li>
-        <li>permite todos los exploradores.</li>
-    </ul>
-
-    <h2>Conceptos básicos de HTML:</h2>
-    <p>Un descriptor(etiqueta) es el principal elemento de codificación adoptado en el estándar HTML, casi todo depende de los descriptores sirven para llamar la atención sobre ciertas palabras en el documentos dejando en claro al navegador lo que debe resaltarse donde mostrar los gráficos y donde se encuentran los hipervínculos.
-    .la etiqueta esta entre corchetes angulares (&lt;&gt;), las etiquetas pueden ser individuales o emparejadas y para emparejarlos es necesario tener una etiqueta de apertura ( la mayoría de las veces con un paramentro y su valor ) y una etiqueta de cierre.
-    . Un contenedor es un par de descriptores que se colocan en la apertura y cierre (etiquetas), los contenedores están diseñados para almacenar ciertas información como un texto u otros descriptores HTML.
-    . Un elemento de un documento HTML es un contenedor con su contenido. 
-    Pasos para crear la estructura de una pagina web:
-    Desarrollar un proyecto de sitio ( determinar cuantas paginas web se iincluiran en el sitio, cual será su tema y como se relacionaran)
-    Preparar una carpeta (electonica) en la que se almacenan todos los materiales.
-    Es deseable colocar los archivos de imagen en una carpeta separada ubicada de la principal.
-    La pagina web del titulo generalmente se guarda con el nombre index.thml o welcome.thml.
+    <h2>ESTRUCTURA BÁSICA HTML</h2>
+    <p>
+      La estructura HTML de una página web se compone de las etiquetas
+      &lt;html&gt;, que indica el comienzo de la página; &lt;head&gt;, que
+      contiene información más descriptiva sobre el sitio; y &lt;body&gt;, que
+      conforma todos los elementos visibles de la página.
     </p>
 
-    <h1>ESTRUCTURA BASICA HTML</h1>
-    <p> La estructura HTML de una página web se compone de las etiquetas <html>, que indica el comienzo de la página; <head>, que contiene información más descriptiva sobre el sitio; y <body>, que conforma todos los elementos visibles de la página.
-
-    Todas las etiquetas están constituidas al inicio y al final por los signos < y >, que representan precisamente la apertura y el cierre de cada elemento para que el lenguaje HTML pueda funcionar. En este sentido, existen dos tipos de etiquetas HTML: 
-    Etiquetas emparejadas. Vienen en pares y tienen una apertura y cierre. Tal como las que conoces: < >. 
-    Etiquetas vacías. Se refiere a las etiquetas que no requieren cierre.
+    <p>
+      Todas las etiquetas están constituidas al inicio y al final por los signos
+      &lt;y&gt;, que representan precisamente la apertura y el cierre de cada
+      elemento para que el lenguaje HTML pueda funcionar. En este sentido,
+      existen dos tipos de etiquetas HTML: Etiquetas emparejadas. Vienen en
+      pares y tienen una apertura y cierre. Tal como las que conoces: &lt;&gt;.
+      Etiquetas vacías. Se refiere a las etiquetas que no requieren cierre.
     </p>
-
-    <h4>DOCTYPE html:</h4>
-    <p> se utiliza para indicar la versión HTML 5.0 (la usada actualmente). 
-    <h4>html /html:</h4> <p>es el elemento raíz y es el más importante dentro de la estructura HTML, pues es el que contendrá el resto de las etiquetas de atributos de la página web. </p>
-    <h4>head /head:</h4> <p>es la etiqueta principal que incluye metadatos; son atributos que no se muestran al usuario, solo describen referencias de la página, por ejemplo, título o página CSS.</p>
-    <h4>body> /body: </h4> <p>es la etiqueta para desarrollar todo el cuerpo de la página web y engloba datos desde textos hasta enlaces.
-    Dentro de la etiqueta <body> se desglosan más etiquetas y elementos como:</p> 
-
-    <p> <h1>, h2, h3, h4, h5, h6: que representan las etiquetas de títulos.</p>
-    <h4>&lt;p&gt;</h4>
+    <h4>&lt;!DOCTYPE html&gt;</h4>
+    <p>Se utiliza para indicar la versión HTML 5.0 (la usada actualmente).</p>
+    <h4>&lt;html/html&gt;</h4>
+    <p>
+      Es el elemento raíz y es el más importante dentro de la estructura HTML,
+      pues es el que contendrá el resto de las etiquetas de atributos de la
+      página web.
+    </p>
+    <h4>&lt;head/head&gt;</h4>
+    <p>
+      Es la etiqueta principal que incluye metadatos; son atributos que no se
+      muestran al usuario, solo describen referencias de la página, por ejemplo,
+      título o página CSS.
+    </p>
+    <h2>&lt;body/body&gt;</h2>
+    <p>
+      Es la etiqueta para desarrollar todo el cuerpo de la página web y engloba
+      datos desde textos hasta enlaces. Dentro de la etiqueta &lt;body&gt; se
+      desglosan más etiquetas y elementos como:
+    </p>
+    <h4>
+      &lt;h1&gt;, &lt;h2&gt;, &lt;h3&gt;, &lt;h4&gt;, &lt;h5&gt;, &lt;h6&gt;
+    </h4>
+    <p>Representan las etiquetas de títulos.</p>
+    <h4>&lt;p&gt; &lt;/p&gt;</h4>
     <p>Sirve para indicar la apertura y cierre de un párrafo.</p>
-    <h4>&lt;div&gt;</h4>
-    <p>significa «división» y funciona para crear secciones o agrupar contenidos. </p>
-    span: su traducción es «abarcar» y sirve para aplicar estilo al texto o agrupar elementos en línea.
-    b, i, ua: para agregar un texto en negritas, cursiva y subrayado, correspondientemente. 
-    <a>: permite agregar un vínculo o enlace. 
-    <img>, <audio>, <video>, <iframe>: dentro de la estructura HTML estas etiquetas sirven para insertar una imagen, audio, video o incrustar un documento HTML. 
-    <form>: funciona para insertar un formulario. 
-    <label>: representa la etiqueta para un elemento en una interfaz de usuario. 
-    <input>: crea controles interactivos para formularios, con el fin de recibir datos del usuario. 
-    Cada etiqueta, debe tener una apertura y un cierre; de lo contrario, el código marcará error y los cambios no se visualizarán correctamente en la página web. 
-
-    En la siguiente imagen te compartimos un ejemplo más elaborado de cómo se vería la estructura HTML ya conformada con mayor contenido. Recuerda que esta solo representa elementos muy básicos. 
-    </p>    
+    <h4>&lt;div&gt; &lt;/div&gt;</h4>
+    <p>
+      Significa «división» y funciona para crear secciones o agrupar contenidos.
+    </p>
+    <h4>&lt;span&gt; &lt;/span&gt;</h4>
+    <p>
+      Su funcion es «abarcar» y sirve para aplicar estilo al texto o agrupar
+      elementos en línea.
+    </p>
+    <h4>&lt;b&gt; &lt;i&gt; &lt;u&gt;</h4>
+    <p>
+      Se usa para agregar un texto en negritas, cursiva y subrayado,
+      correspondientemente.
+    </p>
+    <h4>&lt;a&gt; &lt;/a&gt;</h4>
+    <p>permite agregar un vínculo o enlace.</p>
+    <h4>&lt;img&gt; &lt;audio&gt; &lt;video&gt; &lt;iframe&gt;</h4>
+    <p>
+      dentro de la estructura HTML estas etiquetas sirven para insertar una
+      imagen, audio, video o incrustar un documento HTML.
+    </p>
+    <h4>&lt;form&gt;</h4>
+    <p>funciona para insertar un formulario.</p>
+    <h4>&lt;label&gt;</h4>
+    <p>Representa la etiqueta para un elemento en una interfaz de usuario.</p>
+    <h4>&lt;input&gt;</h4>
+    <p>
+      Crea controles interactivos para formularios, con el fin de recibir datos
+      del usuario.
+    </p>
+    <p>
+      Cada etiqueta, debe tener una apertura y un cierre; de lo contrario, el
+      código marcará error y los cambios no se visualizarán correctamente en la
+      página web.
+    </p>
   </body>
 </html>
