@@ -1,29 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Borel&family=Nunito:ital,wght@0,800;1,500&family=Rubik:wght@300&display=swap");
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  height: 100%;
+}
+
 body {
   background: #000;
   color: #fff;
   font-family: "Lobster";
+  min-height: 100%;
 }
 
 div {
   position: absolute;
-  display: grid;
+  display: flex;
 }
+
 video {
   position: relative;
-  display:grid;
-  
-  top: 0%;
-  left: 0;
-  width: 111%;
-  height: 79%;
-  object-fit: cover;
+  object-fit: contain;
+  height: 90vh;
+  width: 100vw;
 }
+
 h1 {
-  position: center;
-  display: grid;
+  display: flex;
+  align-content: center;
+  justify-content: center;
   text-align: center;
   background: #000;
   font-size: 220px;
-  font-weight: 300;
   mix-blend-mode: multiply;
+}
+
+.redireccion{
+  width: 100vw;
+  height: 20vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+button{
+  padding: 40px 60px;
+  box-shadow: rgba(83, 109, 254, 0.3) 0 4px 8px,
+    rgba(83, 109, 254, 0.2) 0 7px 13px -3px, #d6d6e7 0 -3px 0 inset;
+  transform: translateY(-2px);
+  border-radius: 10px;
+  cursor: pointer;
+  border: none;
+  font-family: "nunito",sans-serif;
+  font-size: 30px;
+  color: #fff;
+  background-color: #5019947e;
+}
+
+@media screen and (max-width: 1024px){
+  video{
+    width: 100vw;
+    height: 100vh;
+  }
+}
+
+@media screen and (min-width: 767px) and (max-width: 1023px){
+  video{
+    width: 70vw;
+    height: 40vh;
+  }
+}
+
+@media screen and (max-width: 767px){
+  video{
+    width: 70vw;
+    height: 20vh;
+  }
 }
