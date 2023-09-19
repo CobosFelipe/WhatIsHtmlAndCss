@@ -8,7 +8,9 @@
 
 body {
   background: rgb(33,100,125);
-  background: linear-gradient(0deg, rgba(33,100,125,1) 0%, rgba(0,60,83,1) 100%);
+  background: linear-gradient(0deg, rgba(33, 100, 125, 1) 0%, rgba(0, 59, 83, 1) 100%);
+  background-size: cover;
+  backdrop-filter: blur;
   background-repeat: no-repeat;
 }
 
@@ -16,6 +18,28 @@ h1 {
   font-weight: 1200;
   color: white;
   font-size: 40px;
+  text-shadow: 4px 4px #003c53;
+}
+
+h2 {
+  font-weight: 1200;
+  color: white;
+  font-size: 30px;
+  text-shadow: 4px 4px #003c53;
+}
+
+h4 {
+  font-weight: 1200;
+  color: white;
+  font-size: 15px;
+  text-shadow: 4px 4px #003c53;
+  text-align: justify;
+}
+
+li {
+  font-weight: 1200;
+  color: white;
+  font-size: 20px;
   text-shadow: 4px 4px #003c53;
 }
 
