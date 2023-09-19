@@ -10,14 +10,17 @@ div {
 }
 video {
   position: relative;
+  display:grid;
+  
   top: 0%;
   left: 0;
-  width: 95%;
-  height: 80%;
+  width: 111%;
+  height: 79%;
   object-fit: cover;
 }
 h1 {
   position: center;
+  display: grid;
   text-align: center;
   background: #000;
   font-size: 220px;
